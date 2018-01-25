@@ -1,3 +1,3 @@
 # etc
 
-Just some bits and pieces shred across my development machines.
+Just some bits and pieces shared across my development machines.
