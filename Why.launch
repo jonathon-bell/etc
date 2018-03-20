@@ -3,7 +3,7 @@
     <listAttribute key="StepOutExcludePkgsOrClasses"/>
     <stringAttribute key="bad_container_name" value="/po"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/why/src/main/scala/com/wolery/why/why.scala"/>
+        <listEntry value="/why/src/main/scala/com/wolery/why/Why.scala"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>

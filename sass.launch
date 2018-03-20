@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
     <stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${project}"/>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="GEM_HOME" value="/opt/gem-home"/>
+    </mapAttribute>
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
     </listAttribute>
-    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/usr/local/bin/sass"/>
+    <booleanAttribute key="org.eclipse.ui.externaltools.ATTR_INCLUDE_REFERENCED_PROJECTS" value="false"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${project}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/opt/gem-home/bin/sass"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="--scss --unix-newlines --style compressed -E UTF-8 ${resource_loc} ${project_loc}/target/classes/css/${name-sans-extension}.css"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${project_loc}"/>
 </launchConfiguration>
