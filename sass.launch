@@ -10,6 +10,6 @@
     <booleanAttribute key="org.eclipse.ui.externaltools.ATTR_INCLUDE_REFERENCED_PROJECTS" value="false"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LAUNCH_CONFIGURATION_BUILD_SCOPE" value="${project}"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="/opt/gem-home/bin/sass"/>
-    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="--scss --unix-newlines --style compressed --default-encoding UTF-8 src/main/scss/Owl.scss target/classes/css/Owl.css"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="--scss --unix-newlines --precision 3 --sourcemap=none --default-encoding UTF-8 --update src/main/scss:target/classes/css"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/owl-gui}"/>
 </launchConfiguration>
